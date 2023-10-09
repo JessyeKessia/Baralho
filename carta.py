@@ -1,8 +1,4 @@
-class BaralhoException(Exception):
-    pass
 from naipe import Naipe
-class NumJogadoresInvalido(BaralhoException):
-    pass
 
 class Carta:
     AS = 1
