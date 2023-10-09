@@ -1,6 +1,10 @@
 import random
 from carta import Carta
 from naipe import Naipe
+class BaralhoException(Exception):
+    pass
+class NumJogadoresInvalido(BaralhoException):
+    pass
 class Baralho:
     
     def __init__(self):
